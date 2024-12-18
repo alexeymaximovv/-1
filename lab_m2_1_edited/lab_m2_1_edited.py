@@ -191,9 +191,6 @@ class AudioBook:
         :return: Является ли аудиокнига прослушанной
         Примеры:
         >>> audiobook = AudioBook(360)
-Python
-
-
         >>> audiobook.is_audiobook_finished()
         False
         >>> audiobook2 = AudioBook(360, 360)
